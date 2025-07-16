@@ -4,9 +4,6 @@ import discord
 from discord.ext import commands
 import os
 
-=== Flask-сервер для Render/UptimeRobot ===
-app = Flask(name)
-
 @app.route('/')
 def home():
     return "Бот работает!"
